@@ -4,9 +4,11 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 
 ### Before You Begin
 
-1. Navigate to the root of your project and run `npm init -y` this will initialize a `package.json`.
+1. Clone the repository.
 
-2. To retrieve the data that will power this app, you'll need to send requests to the Twitter, Spotify and OMDB APIs. Install these Node packages.
+2. Navigate to root folder and run `npm init` to initialize a package.json.
+
+3. To retrieve the data that will power this app, you'll need to send requests to the Twitter, Spotify and OMDB APIs. Install these Node packages:
 
     * [Twitter](https://www.npmjs.com/package/twitter)
    
@@ -16,12 +18,12 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 
     * [OMDB API](http://www.omdbapi.com)
 
-    * [DotEnv](https://www.npmjs.com/package/dotenv)
+    * [DotEnv](https://www.npmjs.com/package/dotenv) `npm i dotenv`
 
-    * [Inquirer](https://www.npmjs.com/package/inquirer) - command line user interface.
+    * [Inquirer](https://www.npmjs.com/package/inquirer) - command line user interface. `npm i inquirer`
 
 
-3. To run the app you need your own `.env`, replacing the values below with your own API keys (no quotes) once you have them. To get API keys, create developer accounts with Spotify and Twitter (and an accompanying Twitter user account to read tweets from). Then add keys into `.env` file.
+4. To run the app you need your own `.env`, replacing the values below with your own API keys (no quotes) once you have them. To get API keys, create developer accounts with Spotify and Twitter (and an accompanying Twitter user account to read tweets from). Then add keys into `.env` file.
 
 ```js
 
@@ -43,7 +45,7 @@ TWITTER_ACCESS_TOKEN_SECRET=your-twitter-access-token-secret
 
 1. Run you local server.
 
-2. Type `node liri` to run.
+2. Type `node liri` to run application.
 
 3. Choose on of the options presented to you.
 
@@ -52,9 +54,15 @@ TWITTER_ACCESS_TOKEN_SECRET=your-twitter-access-token-secret
 
 1. I cannot get the "See Tweets" option to re-prompt the user. This requires you to type `node liri` to run again.
 
+2. Liri wasn't working when run on Nodemon.
+
 
 ### Creator
 
 * https://github.com/WilliamBork33
 
 * http://www.williambork.com/
+
+
+### Forked From User:
+* https://github.com/jorgedelgado24

@@ -156,5 +156,5 @@ var reset = function() {
                     break;
             }
         });
-        }, 5000);
+        }, 3000);
     } 
