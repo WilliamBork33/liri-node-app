@@ -7,7 +7,7 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 
 1. Clone the repository.
 
-2. Navigate to root folder and run `npm init` to initialize a package.json.
+2. Navigate to root folder and run `npm install` to install node and then `npm init` to initialize a package.json.
 
 3. To retrieve the data that will power this app, you'll need to send requests to the Twitter, Spotify and OMDB APIs. Install these Node packages:
 
